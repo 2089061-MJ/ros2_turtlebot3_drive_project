@@ -1,10 +1,10 @@
 # ROS2 주행 프로젝트
-Python 기반의 Theta* + Regulated Pure Pursuit를 활용한 주행 프로젝트입니다.
+Python 기반의 Theta* + Pure Pursuit를 활용한 주행 프로젝트입니다.
 
 ## 요구 사항
 1. ROSBridge가 제공하는 웹 소켓 서버를 활성화 합니다.
 2. 터틀봇3의 bringup 노드, 카메라 노드(파이카메라)를 활성화 합니다.
-3. Remote pc에서 ros 패키지 런치 파일을 실행합니다.(rpp_test.launch.py)
+3. Remote pc에서 ros 패키지 런치 파일을 실행합니다.(pp_test.launch.py)
 4. 웹서버를 활성화 해야합니다.
 
 ## 적용하기
@@ -31,5 +31,5 @@ Python 기반의 Theta* + Regulated Pure Pursuit를 활용한 주행 프로젝�
     $ source install/setup.bash
 
 ### 런치 파일을 실행합니다.
-    $ ros2 launch my_robot_pkg rpp_test.launch.py
+    $ ros2 launch my_robot_pkg pp_test.launch.py
     

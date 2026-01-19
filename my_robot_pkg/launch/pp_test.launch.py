@@ -65,12 +65,11 @@ def generate_launch_description():
         output='screen'
     )
 
-    # 7. 커스텀 A* + RPP 제어 노드 실행
-    # setup.py의 entry_points에 등록한 이름을 executable에
+    # 7. setup.py의 entry_points에 등록한 이름을 executable에
     # 예: 'a_star_rpp'
     start_planner_node_cmd = Node(
         package=pkg_name,
-        executable='rpp_test',  # setup.py에서 설정한 진입점 이름
+        executable='pp_test',  # setup.py에서 설정한 진입점 이름
         name='custom_theta_star_driver', # 노드 이름
         output='screen',
         parameters=[{'use_sim_time': use_sim_time}]

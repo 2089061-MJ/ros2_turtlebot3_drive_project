@@ -6,6 +6,7 @@ Python 기반의 Theta* + Pure Pursuit를 활용한 주행 프로젝트입니다
 2. 터틀봇3의 bringup 노드, 카메라 노드(파이카메라)를 활성화 합니다.
 3. Remote pc에서 ros 패키지 런치 파일을 실행합니다.(pp_test.launch.py)
 4. 웹서버를 활성화 해야합니다.
+5. Google Gemini API키를 발급받고 .env를 생성하여 .env파일 안에 API 키를 삽입합니다.
 
 ## 적용하기
 리눅스 우분투 22.04 환경 기준으로 작성하였습니다.

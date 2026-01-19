@@ -30,7 +30,7 @@ setup(
     entry_points={
         'console_scripts': [
         'inspection = my_robot_pkg.inspection:main',
-        'rpp_test = my_robot_pkg.rpp_test:main'
+        'pp_test = my_robot_pkg.pp_test:main'
         ],
     },
 )

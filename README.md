@@ -1,5 +1,5 @@
 # ROS2 주행 프로젝트
-Python 기반의 Theta* + Pure Pursuit를 활용한 주행 프로젝트입니다.
+Python 기반의 Theta* + Adaptive Pure Pursuit를 활용한 주행 프로젝트입니다.
 
 ## 요구 사항
 1. ROSBridge가 제공하는 웹 소켓 서버를 활성화 합니다.
